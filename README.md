@@ -19,6 +19,5 @@ add key to your bash profile
 
 copy key.pem and cert.pem to config folder
 
-
 ### Tutorial
 `https://itnext.io/building-restful-web-apis-with-node-js-express-mongodb-and-typescript-part-1-2-195bdaf129cf`
