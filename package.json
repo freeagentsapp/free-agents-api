@@ -1,0 +1,32 @@
+{
+  "name": "free-agents-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeagentsapp/free-agents-api.git"
+  },
+  "author": "Dan Reale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeagentsapp/free-agents-api/issues"
+  },
+  "homepage": "https://github.com/freeagentsapp/free-agents-api#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0"
+  }
+}
